@@ -1,0 +1,9 @@
+# Hashing: Converting elements in smaller elements using some function(hash function).
+# Collosion: If we get same key for two or more elements we use two method;
+    1.  Seperate chaining
+        If collision occour create a chain using linked list
+    2.  Open addressing
+        If collision occour use probing i.e. using a second argument called as prob number in hash function. Since it depends on key it is represented as P(k).
+            i.  a*k + b;
+            ii. a*k^2 + P*K +c;
+            iii.k*h2, h(x) is the hasing function.
